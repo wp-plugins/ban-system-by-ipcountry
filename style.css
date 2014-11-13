@@ -1,0 +1,55 @@
+.widefat, .nav-tab-wrapper, .widefatbox{
+    width: 700px;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    margin: auto!important;
+}
+.widefat, .widefatbox{
+    border: 1px solid #ccc!important;
+    border-top: none!important;
+}
+.widefat td, .widefat th{
+    text-align: center;
+    vertical-align: middle;
+}
+.widefatbox{
+    background-color: white;
+    padding: 15px;
+}
+.widefatbox td{
+    height: 35px;
+    vertical-align: middle;
+}
+.widefatbox hr{
+    margin: 20px 0;
+}
+.bandetwi td:nth-child(2n-1){
+    font-weight: bold;
+}
+.bandetwi td{
+    font-size: 17px;
+}
+.small-wrap{
+    width: 668px;
+}
+.visitor{
+    border: 1px solid #ccc;
+    border-top: 0;
+}
+.tooltip:hover:after{
+border: 1px solid #cccccc;
+background-color: #efefef;
+position: absolute;
+padding: 3px 8px;
+font-size: 12px;
+z-index: 9999;
+margin-left: -80px;
+margin-top: 30px;
+width: 230px;
+}
+#tt1:hover:after{
+    content: 'This is an automated stamp that prints the reason for each user.';
+}
+#tt2:hover:after{
+    content: 'Attention! Take care when you enable admin panel blocking, and check if you didn\2018t mistakely banned yourself, because you will loose the access to the admin panel. In this case, using ftp, go to blog/wp-content/plugins and remove the ban-system-by-ipcountry folder';
+}
